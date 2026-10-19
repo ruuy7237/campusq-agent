@@ -1,0 +1,31 @@
+{
+  "dataset": {
+    "answerable": 29,
+    "unanswerable": 6,
+    "chunks": 12,
+    "embedder": "hashing",
+    "mode": "llm"
+  },
+  "retrieval": {
+    "hit@1": 0.8621,
+    "hit@3": 0.9655,
+    "mrr": 0.9224
+  },
+  "qa": {
+    "one_shot_solve_rate": 0.8966,
+    "keyword_coverage_avg": 0.8966,
+    "refusal_accuracy": 1.0
+  },
+  "latency_ms": {
+    "p50": 834.9,
+    "p95": 1188.1
+  },
+  "llm_usage": {
+    "calls": 26,
+    "prompt_tokens": 26902,
+    "completion_tokens": 1241,
+    "total_tokens": 28143,
+    "latency_ms": 24296.1,
+    "errors": 0
+  }
+}

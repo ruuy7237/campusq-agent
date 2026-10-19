@@ -1,0 +1,40 @@
+{"q": "事务的 ACID 分别指什么", "docs": ["02_数据库_事务与索引"], "must": ["原子性", "一致性", "隔离性", "持久性"], "answerable": true}
+{"q": "MySQL InnoDB 默认的隔离级别是哪个", "docs": ["02_数据库_事务与索引"], "must": ["可重复读"], "answerable": true}
+{"q": "什么是幻读，哪个隔离级别可以避免", "docs": ["02_数据库_事务与索引"], "must": ["幻读", "串行化"], "answerable": true}
+{"q": "MVCC 是怎么实现读写不阻塞的", "docs": ["02_数据库_事务与索引"], "must": ["版本链", "Read View"], "answerable": true}
+{"q": "为什么二级索引查询要回表", "docs": ["02_数据库_事务与索引"], "must": ["主键"], "answerable": true}
+{"q": "联合索引最左前缀原则是什么", "docs": ["02_数据库_事务与索引"], "must": ["最左"], "answerable": true}
+{"q": "哪些写法会让索引失效", "docs": ["02_数据库_事务与索引"], "must": ["函数", "隐式类型转换"], "answerable": true}
+{"q": "怎么定位一条慢 SQL", "docs": ["02_数据库_事务与索引"], "must": ["EXPLAIN", "慢查询日志"], "answerable": true}
+
+{"q": "TCP 为什么需要三次握手而不是两次", "docs": ["04_计算机网络_TCP与HTTP"], "must": ["接收能力", "无效连接"], "answerable": true}
+{"q": "TIME_WAIT 为什么要等 2MSL", "docs": ["04_计算机网络_TCP与HTTP"], "must": ["2MSL"], "answerable": true}
+{"q": "TCP 的流量控制和拥塞控制分别是什么", "docs": ["04_计算机网络_TCP与HTTP"], "must": ["接收窗口", "慢启动"], "answerable": true}
+{"q": "301 和 302 状态码有什么区别", "docs": ["04_计算机网络_TCP与HTTP"], "must": ["永久", "临时"], "answerable": true}
+{"q": "强缓存和协商缓存分别靠什么字段", "docs": ["04_计算机网络_TCP与HTTP"], "must": ["Cache-Control", "ETag"], "answerable": true}
+{"q": "HTTPS 相比 HTTP 多了什么", "docs": ["04_计算机网络_TCP与HTTP"], "must": ["TLS", "加密"], "answerable": true}
+
+{"q": "进程和线程的区别是什么", "docs": ["03_操作系统_进程与内存"], "must": ["资源分配", "调度"], "answerable": true}
+{"q": "死锁产生的四个必要条件", "docs": ["03_操作系统_进程与内存"], "must": ["互斥", "循环等待"], "answerable": true}
+{"q": "LRU 和 FIFO 页面置换算法有什么区别", "docs": ["03_操作系统_进程与内存"], "must": ["Belady", "最近"], "answerable": true}
+{"q": "时间片过大或过小分别有什么问题", "docs": ["03_操作系统_进程与内存"], "must": ["上下文切换", "时间片"], "answerable": true}
+{"q": "什么是局部性原理", "docs": ["03_操作系统_进程与内存"], "must": ["时间局部性", "空间局部性"], "answerable": true}
+
+{"q": "用户故事怎么写，验收标准用什么格式", "docs": ["01_软件工程_需求与迭代"], "must": ["作为", "Given"], "answerable": true}
+{"q": "需求优先级排序有哪些方法", "docs": ["01_软件工程_需求与迭代"], "must": ["MoSCoW", "Kano"], "answerable": true}
+{"q": "灰度发布要做哪些准备", "docs": ["01_软件工程_需求与迭代"], "must": ["灰度", "回滚"], "answerable": true}
+{"q": "需求获取有哪些方法，访谈和问卷分别适合什么场景", "docs": ["01_软件工程_需求与迭代"], "must": ["访谈", "问卷"], "answerable": true}
+
+{"q": "RAG 的典型链路包含哪些步骤", "docs": ["05_人工智能_大模型与RAG"], "must": ["切分", "向量", "重排"], "answerable": true}
+{"q": "父子分块解决了什么问题", "docs": ["05_人工智能_大模型与RAG"], "must": ["父块", "子块"], "answerable": true}
+{"q": "RRF 融合是什么，为什么有用", "docs": ["05_人工智能_大模型与RAG"], "must": ["稀疏", "稠密", "倒数排名"], "answerable": true}
+{"q": "怎么抑制大模型幻觉", "docs": ["05_人工智能_大模型与RAG"], "must": ["拒答", "引用"], "answerable": true}
+{"q": "这四门课的期末成绩怎么算", "docs": ["06_课程考核说明与复习安排"], "must": ["30%", "70%"], "answerable": true}
+{"q": "距离考试四周应该怎么安排复习", "docs": ["06_课程考核说明与复习安排"], "must": ["四周", "错题"], "answerable": true}
+
+{"q": "学校宿舍晚上几点断电", "docs": [], "must": [], "answerable": false}
+{"q": "任课老师的办公室在几号楼", "docs": [], "must": [], "answerable": false}
+{"q": "补考申请需要找哪个部门盖章", "docs": [], "must": [], "answerable": false}
+{"q": "这门课的教材是哪一年出版的", "docs": [], "must": [], "answerable": false}
+{"q": "奖学金评定标准是什么", "docs": [], "must": [], "answerable": false}
+{"q": "图书馆周末开放时间是几点", "docs": [], "must": [], "answerable": false}
